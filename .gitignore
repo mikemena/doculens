@@ -49,8 +49,6 @@ nosetests.xml
 pytest_cache/
 htmlcov/
 
-
 # Directory
-README.md
 TODO.md
 data/
