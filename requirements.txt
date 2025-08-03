@@ -1,0 +1,8 @@
+spacy         # Core NLP library for tokenization, NER, and training
+python-docx   # For extracting text from DOCX files
+PyMuPDF       # For extracting text from PDF files
+torch         # PyTorch for custom NN training (e.g., spaCy transformers)
+pandas        # For data handling (e.g., managing text lists, annotations)
+scikit-learn  # For train-test splitting and evaluation metrics
+numpy         # Numerical ops, dependency for pandas/scikit-learn
+tqdm          # Progress bars for training loops
