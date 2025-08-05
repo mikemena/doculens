@@ -59,6 +59,9 @@ doculens/
 
    * For NER or clause classification, prepare your labeled data in spaCy’s JSON format (`docbin`) or as `.spacy` files.
 
+An example of labeling flow (Label Studio is one example)
+Raw text → Label Studio → Annotated JSON/CONLL → .spacy files → Config + Training → Trained Model
+
 ## 4. Dataset Splitting
 
 * Use `sklearn.model_selection.train_test_split` on your DataFrame of examples (`text, annotations`).
